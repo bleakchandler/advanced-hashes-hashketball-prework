@@ -236,11 +236,13 @@ def big_shoe_rebounds
        playerwithbiggestshoe= value2[:player_name]
         end
       end
+      p "this players name is"
+      value
     end
-  p "ths biggesst shoe size is"
-  p biggestshoereal
-  p "and is owned by"
-  p playerwithbiggestshoe
+  #p "ths biggesst shoe size is"
+  #p biggestshoereal
+  #p "and is owned by"
+  #p playerwithbiggestshoe
 end
 
 # rspec spec/hashketball_spec.rb -e num_points_scored
