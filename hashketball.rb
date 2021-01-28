@@ -237,7 +237,7 @@ def big_shoe_rebounds
         end
       end
       p "this players name is"
-      value
+      p value
     end
   #p "ths biggesst shoe size is"
   #p biggestshoereal
