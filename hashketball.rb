@@ -230,6 +230,7 @@ def big_shoes_rebounds
   game_hash.each do |key, value|
     value[:players].each do |value2|
      biggestshoe = value2[:shoe]
+     p " hi"
      p biggestshoe
   
   
