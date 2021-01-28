@@ -243,6 +243,7 @@ def big_shoe_rebounds
     value[:players].each do |value2|
       if value2[:player_name] = playerwithbiggestshoe
         p "he has it"
+        p playerwithbiggestshoe
       end
   end
 end
