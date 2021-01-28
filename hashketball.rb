@@ -226,12 +226,14 @@ def big_shoe_rebounds
   
   biggestshoe = 0
   biggestshoereal = 0
+  playerwithbiggestshoe
   
   game_hash.each do |key, value|
     value[:players].each do |value2|
      biggestshoe = value2[:shoe]
      if biggestshoe > biggestshoereal
        biggestshoereal = biggestshoe
+       playerwithbiggestshoe= value2[:player_name]
      end
   
   
@@ -240,6 +242,8 @@ end
 end
   p "ths biggesst shoe size is"
   p biggestshoereal
+  p "and is owned by"
+  p playerwithbiggestshoe
 end
 
 # rspec spec/hashketball_spec.rb -e num_points_scored
