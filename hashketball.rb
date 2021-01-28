@@ -224,9 +224,16 @@ end
 
 def big_shoes_rebounds
   
+  biggestshoe = ""
+  biggestshoereal = ""
+  
   game_hash.each do |key, value|
     value[:players].each do |value2|
+     biggestshoe = value2[:shoe]
+     p biggestshoe
   
+  
+end
   
   
 end
