@@ -239,9 +239,7 @@ def big_shoe_rebounds
         end
       end
     end
-    p "this is"
-    p numberofrebounds
-    return numberofrebounds
+ return numberofrebounds
 end
 
 # rspec spec/hashketball_spec.rb -e num_points_scored
