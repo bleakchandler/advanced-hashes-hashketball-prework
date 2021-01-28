@@ -222,7 +222,7 @@ end
 
 
 
-def big_shoes_rebounds
+def big_shoe_rebounds
   
   biggestshoe = ""
   biggestshoereal = ""
