@@ -242,7 +242,7 @@ def big_shoe_rebounds
  game_hash.each do |key, value|
     value[:players].each do |value2|
       if value2[:player_name] = playerwithbiggestshoe
-        p value2[rebounds]
+        p value2[:rebounds]
         return value2[:rebounds]
       end
   end
