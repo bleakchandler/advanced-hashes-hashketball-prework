@@ -239,7 +239,7 @@ def big_shoe_rebounds
       #p "this players name is"
       #p value
     end
-    if value2[:player_name] == playerwithbiggestshoe
+    if value2[:player_name] != playerwithbiggestshoe
       p "this worked"
     end
   #p "ths biggesst shoe size is"
