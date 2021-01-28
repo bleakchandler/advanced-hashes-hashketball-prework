@@ -239,7 +239,7 @@ end
   
 end
   p "ths biggesst shoe size is"
-  p biggestshoe
+  p biggestshoereal
 end
 
 # rspec spec/hashketball_spec.rb -e num_points_scored
