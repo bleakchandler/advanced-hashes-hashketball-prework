@@ -223,6 +223,12 @@ end
 
 
 def big_shoes_rebounds
+  
+  game_hash.each do |key, value|
+    value[:players].each do |value2|
+  
+  
+  
 end
 
 # rspec spec/hashketball_spec.rb -e num_points_scored
