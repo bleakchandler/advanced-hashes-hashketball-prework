@@ -239,7 +239,13 @@ def big_shoe_rebounds
       #p "this players name is"
       #p value
     end
- 
+ game_hash.each do |key, value|
+    value[:players].each do |value2|
+      if value2[:player_name] = playerwithbiggestshoe
+        p "he has it"
+      end
+  end
+end
   p "ths biggesst shoe size is"
   #p biggestshoereal
   #p "and is owned by"
